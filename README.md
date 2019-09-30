@@ -110,3 +110,19 @@ Seleccionado esto podemos dirigirnos a la parte inferior y seleccionar el boton 
 Pasado un rato podremos observar que la base de datos ya se encuentra corriendo y lista para ser usada.
 
 ![](https://github.com/danielrodriguezvillalba/AREP-Laboratorio5/blob/master/resources/BD6.PNG)
+
+## 4. Configurar un VPC para gestionar la seguridad y los permisos de acceso a sus servidores.
+
+Para configurar un VPC en AWS es necesario iniciar sesion en nuestra cuenta de AWS Educate, paso siguiente en el desplegable de servicios se debe seleccionar la VPC.
+
+![](https://github.com/danielrodriguezvillalba/AREP-Laboratorio5/blob/master/resources/VP1.PNG)
+
+En este pantalla a la que nos redirecciona, tenemos un VPC por defecto por lo cual lo vamos a seccionar y en la ventana que surge abajo vamos a la pestaña de Outbond para poder presionar el boton de Edit y hacer poder activar los puertos que necesitamos para ejecutar lo necesario.
+
+![](https://github.com/danielrodriguezvillalba/AREP-Laboratorio5/blob/master/resources/VP2.PNG)
+
+Al estan en esta ventana que se despliega pulsamos add Rule, seleccionamos el tipo del puerto el cual se va a usar, el numero, el protocolo que se va a usar sobre este y finalmente para las direcciones IP que se quiere habilitar para este puerto (El 0.0.0.0/0 es para que todas puedan usarla).
+
+![](https://github.com/danielrodriguezvillalba/AREP-Laboratorio5/blob/master/resources/VP3.PNG)
+
+Y listo, tenemos nuestro sistema de VPC que nos ayuda a gestionar el acceso y la seguridad de nuestros servidores.
