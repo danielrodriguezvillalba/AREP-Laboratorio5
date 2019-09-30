@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Main {
     @Autowired
-    static UsuarioRepository usr;
+    static Usuario usr;
     
     
     public static void main(String[] args){

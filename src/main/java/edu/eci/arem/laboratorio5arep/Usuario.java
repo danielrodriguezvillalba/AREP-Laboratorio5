@@ -5,16 +5,12 @@
  */
 package edu.eci.arem.laboratorio5arep;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
 
 /**
  *
  * @author 2115253
  */
-@Entity
 class Usuario {
-    @Id
     private String nombre;
     private String fecha;
 
