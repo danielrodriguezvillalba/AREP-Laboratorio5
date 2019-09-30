@@ -85,3 +85,12 @@ Listo, nuestra maquina visrtual S2 esta creada y nos saldra este aviso informand
 
 ## 3. Enlazar el formulario a una base de datos relacional o no-relacional, para almacenar y traer los datos almacenados. Use servicios de base de datos de AWS.
 
+La conexion a la base de datos se encuentra en el codigo presentado en este repositorio.
+
+Para crear una base de datos en AWS es necesario iniciar sesion en nuestra cuenta de AWS Educate, paso siguiente en el desplegable de servicios se debe seleccionar la RDS si se quiere una base de datos relacional, en caso contrario, seleccionar las otras opciones.
+
+![](https://github.com/danielrodriguezvillalba/AREP-Laboratorio5/blob/master/resources/BD1.PNG)
+
+Para iniciar nuestro proceso de crear una base de datos con los servicios de AWS es necesario pulsar el boton de Create Database.
+
+![](https://github.com/danielrodriguezvillalba/AREP-Laboratorio5/blob/master/resources/BD2.PNG)
