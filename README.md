@@ -42,7 +42,7 @@ Listo, ya tenemos nuestro S3 creado, ahora necesitamos cargar unos archivos HTML
 
 ![](https://github.com/danielrodriguezvillalba/AREP-Laboratorio5/blob/master/resources/CargarBucket.PNG)
 
-Los archivos deben quedar cargador de la siguiente manera.
+Los archivos deben quedar cargados de la siguiente manera.
 
 ![](https://github.com/danielrodriguezvillalba/AREP-Laboratorio5/blob/master/resources/HTMLBucket.PNG)
 
@@ -52,5 +52,36 @@ Dado el URL asignado por AWS que aparece dandole clic sobre el archivo HTML, pod
 
 ## 2. Desplegar un formulario dinámico usando EC2
 
+La respectiva implementacion del formulario del EC2 esta en la este repositorio.
 
+Para crear una maquina virtual EC2 en AWS es necesario ingresar a la cuenta de aws educate, al estar ahi en el desplegable de servicios se debe pulsar en la opcion de EC2 que se muestra a continuacion.
+
+![](https://github.com/danielrodriguezvillalba/AREP-Laboratorio5/blob/master/resources/EC1.PNG)
+
+Estando en este menú debe dirigirse a la opcion Launch Intance para asi poder crear la maquina virtual.
+
+![](https://github.com/danielrodriguezvillalba/AREP-Laboratorio5/blob/master/resources/EC2.PNG)
+
+Paso siguiente debe seleccionar el tipo de maquina virtual que desea lanzar (recomendada la que se encuentra subrayada de amarillo) y al boton select sobre la que se quiere elegir.
+
+![](https://github.com/danielrodriguezvillalba/AREP-Laboratorio5/blob/master/resources/EC3.PNG)
+
+Teniendo esto realizado es importante seleccionar la opcion subrayada para que asi no nos genere ningun costo y pulsar el boton de Review and launch.
+
+![](https://github.com/danielrodriguezvillalba/AREP-Laboratorio5/blob/master/resources/EC4.PNG)
+
+Estando en la siguiente pantalla, en la cual se muestra el resumen de como vamos a crear nuestra maquina virtual se debe  pulsar en el boton de Launch.
+
+![](https://github.com/danielrodriguezvillalba/AREP-Laboratorio5/blob/master/resources/EC5.PNG)
+
+Al pulsar el boton Launch, esto nos dirige a la siguiente ventana en la que si se tiene una Key disponible, se puede seleccionar una, sin embargo si no se tiene se debe poner el nombre que se quiera y se debe descargar y guardar en un lugar facil de recordar ya que esta nos servira para lanzar mas instancias de otras maquinas, paso siguiente se habilita la opcion de Launch Instance.
+
+![](https://github.com/danielrodriguezvillalba/AREP-Laboratorio5/blob/master/resources/EC6.PNG)
+
+Listo, nuestra maquina visrtual S2 esta creada y nos saldra este aviso informandonos que quedo bien hecha.
+
+![](https://github.com/danielrodriguezvillalba/AREP-Laboratorio5/blob/master/resources/EC7.PNG)
+
+
+## 3. Enlazar el formulario a una base de datos relacional o no-relacional, para almacenar y traer los datos almacenados. Use servicios de base de datos de AWS.
 
