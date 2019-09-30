@@ -94,3 +94,19 @@ Para crear una base de datos en AWS es necesario iniciar sesion en nuestra cuent
 Para iniciar nuestro proceso de crear una base de datos con los servicios de AWS es necesario pulsar el boton de Create Database.
 
 ![](https://github.com/danielrodriguezvillalba/AREP-Laboratorio5/blob/master/resources/BD2.PNG)
+
+Para mayor facilida en la creacion la creacion de la Base de datos seleccionamos la opcion de easy create, la cual nos pedira menos especificaciones, sin embargo si se quiere tener una creacion detallada de esta se selecciona la otra opcion. Ademas aqui debemos seleccionar el tipo de base de datos que se quiere, para el ejercicio elegiremos una base de datos PostgreSQL.
+
+![](https://github.com/danielrodriguezvillalba/AREP-Laboratorio5/blob/master/resources/BD3.PNG)
+
+Esta parte es importante ya se debemos seleccionar la opcion de free tier para que esta no nos genere un costo sobre nuestro saldo, sin embargo si se requiere una base de datos con mejor rendimiento y capacidad se puede seleccionar la opcion de acuerdo a las necesidades presentadas, ademas se pone el nombre que le queremos dar a la base de datos y el nombre de usuario y clave que va a a tener esta para el ingreso.
+
+![](https://github.com/danielrodriguezvillalba/AREP-Laboratorio5/blob/master/resources/BD4.PNG)
+
+Seleccionado esto podemos dirigirnos a la parte inferior y seleccionar el boton de create database para que esta se nos cree.
+
+![](https://github.com/danielrodriguezvillalba/AREP-Laboratorio5/blob/master/resources/BD5.PNG)
+
+Pasado un rato podremos observar que la base de datos ya se encuentra corriendo y lista para ser usada.
+
+![](https://github.com/danielrodriguezvillalba/AREP-Laboratorio5/blob/master/resources/BD6.PNG)
